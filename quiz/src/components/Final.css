@@ -33,7 +33,8 @@ p{
 #Again{
     color: blue;
     border: 2px solid blue;
-    margin: 10px;
+    margin: 20px;
+    margin-bottom:300px;
 }
 #Home{
     color: green;
