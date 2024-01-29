@@ -1,0 +1,65 @@
+.Quiz {
+    background-color: white;
+    color: black;
+    height: 70vh;
+    width: 90vw;
+    border-left: 5px solid #9580ff;
+    position: relative;
+    bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+   
+ }
+ 
+ .Quiz h1 {
+    text-align: center;
+   padding: 30px;
+   color:black;
+ }
+ #question{
+    text-align: center;
+    color: black;
+ }
+
+ 
+ #questionNo {
+    text-align: left;
+    color: black;
+    margin: 10px;
+ }
+ 
+ #OptionButtons button {
+   height: 50px;
+   width: 400px;
+   border-radius: 20px;
+   background-color: rgb(30, 161, 241);
+   color: white;
+   font-size: 100%;
+ }
+ 
+ #OptionButtons {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px 100px;
+   justify-content: center;
+   margin: 40px;
+ }
+ 
+ #nav button {
+   padding: 10px 30px;
+   margin: 20px;
+ }
+ 
+#prevButton {
+   color: white;
+   background-color: rgb(62, 126, 170);
+}
+ 
+#nextButton {
+   color: white;
+   background-color: #008001;
+}
+#quitButton {
+    color: white;
+    background-color: #ff0000;
+}

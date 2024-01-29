@@ -1,0 +1,41 @@
+#final {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-left: 5px solid #9580ff;
+    height: 500px;
+    width: 600px;
+    padding: 2px;
+    margin-bottom: 100px;
+    font-size: large;
+    margin-top: 100px;
+
+  }
+h4{
+    margin-top: 20px;
+    color: black;
+}
+#result h1{
+    color: black;
+}
+p{
+    color: black;
+}
+#contain{
+    width: 480px;
+    display: flex;
+    flex-direction:row; /* This makes the items stack vertically */
+    margin-top: 1px;
+    justify-content: space-between;
+    height: 100%;
+    padding: 5px;
+}
+#Again{
+    color: blue;
+    border: 2px solid blue;
+    margin: 10px;
+}
+#Home{
+    color: green;
+    border: 2px solid green;
+}
